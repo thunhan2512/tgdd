@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-grid {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap:20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.product-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-image {
+    display:flex;
+    justify-content: center;
+}
+
+.product-price {
+    color: red;
+}
+
+.product-old-price {
+    color: grey;
+}
+
+
+.product-discount {
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
