@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
 .product-grid {
     display:grid;
     grid-template-columns: 1.5fr 1fr 1fr;
