@@ -4,16 +4,12 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .tgdd-header {
     background: #FFC801;
     position: sticky;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-top {
@@ -83,6 +79,62 @@ body {
 }
 
 .header-bottom a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../assets/image/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.tgdd-body {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.sale-tet img {
+    width:100%;
+}
+
+.sale-tet {
+    position: relative;
+}
+
+.sale-tet span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #ccc8c8;
+    border-radius: 50%;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.product-promotion {
+    padding: 20px 16px;
+}
+
+.product-promotion h2 {
+    color: white;
+}
+
+.product-promotion ul {
+    padding: 30px 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px 20px  0 0;
+}
+
+.product-promotion a {
     color: black;
     text-decoration: none;
 }
